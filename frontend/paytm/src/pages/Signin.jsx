@@ -9,7 +9,7 @@ const Signin = () => {
   const [password, setPassword] = useState("");
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <div className="max-w-md bg-slate-200 rounded-xl p-8">
+      <div className="w-96 bg-slate-200 rounded-xl p-8">
         <Heading label={"Sign in"} />
         {/* <SubHeading label={`Enter your information to create \n an account`} />
          */}

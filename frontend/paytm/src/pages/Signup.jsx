@@ -15,10 +15,10 @@ const Signup = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <div className=" max-w-md bg-slate-200 rounded-xl p-8">
+      <div className=" bg-slate-200 rounded-xl p-8">
         <Heading label={"Sign up"} />
         {/* <SubHeading label={`Enter your information to create \n an account`} /> */}
-        <div className="w-90 mx-auto flex flex-col justify-center items-center">
+        <div className="w-96 mx-auto flex flex-col justify-center items-center">
           <InputBox
             type="text"
             label={"First Name :"}
