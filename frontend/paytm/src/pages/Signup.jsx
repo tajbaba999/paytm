@@ -58,8 +58,8 @@ const Signup = () => {
             value={password}
           />
         </div>
-        <div className="pt-3 pb-3">
-          <Button name={"Submit"} />
+        <div className=" py-8 w-22">
+          <Button name={"Submit"} onClick={() => {}} />
         </div>
       </div>
     </div>

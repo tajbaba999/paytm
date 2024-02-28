@@ -3,7 +3,7 @@
 
 export function InputBox({ type, label, placeholder, onChange, value }) {
   return (
-    <div className="flex flex-col justify-center w-90 h-23">
+    <div className="flex flex-col justify-center w-90 h-23 py-1">
       <div className="text-sm font-medium py-2 text-left">{label}</div>
       <input
         type={type}
